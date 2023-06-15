@@ -34,6 +34,7 @@ public class HadoopResource {
         String xml = "<book>\n" +
                 "<id>1</id>\n" +
                 "<name>programing in java</name>\n" +
+                "<author>Dev Macay</author>\n" +
                 "</book>";
         JSONObject json = new JSONObject();
         try{
